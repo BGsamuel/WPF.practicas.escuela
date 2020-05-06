@@ -1,0 +1,27 @@
+
+==> Model <==
+-Escuela
+* IdEscuela: Int
+* Nombre: String
+* Director: Persona
+* Alumnos: List<Alumno>
+* Profesores: List<Profesor>
+
+-Persona
+* Nombre: String
+* ApellidoPaterno: String
+* ApellidoMaterno: String
+* Edad: int
+* Matricula: Int
+* Clave: string
+
+-Profesor (hereda de Persona)
+* Sueldo: Decimal
+
+-Materia
+* IdMateria: Int
+* Nombre: String
+* Profesor: Profesor
+
+-Alumno (hereda de Persona)
+* Materias: List<Materia>

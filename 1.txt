@@ -1,0 +1,5 @@
+
+- Maestro pueda entrar a la apliacion con su matricula y clave.
+- Que en pantalla le muestre la materia que lleva.
+- Que le muestre los alumnos que llevan esa materia.
+- Que pueda dar de alta a nuevo alumnos a la materia.
